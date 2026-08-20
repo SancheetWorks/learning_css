@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Styling</title>
+        <style>
+
+            /* Priority property of CSS are '!important' keyword > Inline > Internal > External  */
+            h2{
+                color: brown;
+                background-color: chocolate;
+                font-size: 90px;
+            }
+
+            /* By using '!important' keyword, giving the style the most priority */
+            h1{
+                color: aliceblue !important;
+                background-color: black !important;
+            }
+            /* As per the order property, the latest version of style will work for the styling  */
+            /* The color and background color are changed */
+            h2{
+                color: antiquewhite;
+                background-color: blueviolet;
+            }
+        </style>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <!-- External CSS -->
+         <h4>I have many friends.</h4>
+         <h4>I am an Indian Citizen.</h4>
+
+        <!-- Internal CSS -->
+         <h2>I love to travel</h2>
+         <h2>I love to ride bikes as well</h2>
+        
+        <!-- Inline CSS -->
+        <h1 style="color: darkgray;background-color: black; font-size: 56px;">Hello! I am a student.</h1>
+
+        <h1 style="color: blueviolet;background-color: cornsilk;font-size: 80px;">I am pursing Engineering.</h1>
+    </body>
+</html>
