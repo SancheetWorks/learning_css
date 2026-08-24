@@ -1,0 +1,46 @@
+.b_property1{
+    width: 400px;
+    border: 10px solid red;
+}
+
+.b_property2{
+    width: 400px;
+    border: 10px dotted red;
+}
+
+.b_property3{
+    width: 400px;
+    border: 10px double red;
+}
+
+.b_property4{
+    width: 400px;
+    border: 10px dashed red;
+}
+
+.b_property5{
+    width: 400px;
+    border: 10px inset red;
+}
+
+.b_property6{
+    width: 400px;
+    border: 10px outset red;
+}
+
+.b_property7{
+    width: 400px;
+    border: 10px groove red;
+}
+
+.b_property8{
+    width: 400px;
+    border: 15px solid;
+    border-color: black rebeccapurple red green;
+}
+
+.b_property9{
+    width: 400px;
+    border: 15px solid blue;
+    border-radius: 20px 100px 20px 100px;
+}
