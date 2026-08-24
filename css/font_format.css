@@ -1,0 +1,23 @@
+.font_family1{
+    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font_family2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.font_family3{
+    font-family: monospace;
+}
+
+.font_family4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f_weight{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+    font-variant: small-caps;
+}
