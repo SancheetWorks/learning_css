@@ -1,0 +1,17 @@
+.photos{
+    width: 400px;
+    border: 4px groove black;
+    box-shadow: 3px 4px 5px gray;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.container_items{
+    padding: 5px 5px 5px 5px;
+}
