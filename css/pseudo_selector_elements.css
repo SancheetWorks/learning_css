@@ -1,0 +1,39 @@
+.bg_color{
+    background-color: black;
+}
+
+.hover_effect{
+    text-align: center;
+    color: lavender;
+    font-size: 40px;
+}
+
+.hover_effect:hover{
+    color: purple;
+    font-size: 60px;
+}
+
+.hover_effect2{
+    border: 3px solid blue;
+    padding: 20px;
+    color: blue;
+}
+
+.hover_effect2:active{
+    background-color: white;
+    color: black;
+}
+
+hover_effect3{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.hover_effect3:focus{
+    background-color: aqua;
+    color: brown;
+}
+
+.hover_effect4:visited{
+    color: gainsboro;
+}
