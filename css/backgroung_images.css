@@ -1,0 +1,12 @@
+.bg_image_example{
+    background-color: black;
+    background-image: url("../images/C8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_heading{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
