@@ -1,0 +1,35 @@
+.ul_property{
+    width: 200px;
+    padding: 15px;
+    list-style-type: none;
+    font-weight: 900;
+}
+
+.li_property{
+   padding: 10px;
+   border: 2px groove red;
+   margin-bottom: 11px;
+   border-radius: 10px;
+}
+
+.li_property:nth-child(odd){
+    background-color: lavender;
+}
+
+.li_property:nth-child(even){
+    background-color: pink;
+}
+
+.li_property:first-child{
+    background-color: purple;
+    color: aliceblue;
+}
+
+.li_property:last-child{
+    background-color: purple;
+    color: aliceblue;
+}
+
+.li_property:nth-child(4){
+    background-color: gray;
+}
