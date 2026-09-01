@@ -37,3 +37,21 @@ hover_effect3{
 .hover_effect4:visited{
     color: gainsboro;
 }
+
+.increase_first_letter::first-letter{
+    color: red;
+    font-size: 20px;
+}
+
+.color{
+    color: aliceblue;
+}
+
+.selection{
+    color: aliceblue;
+}
+
+.selection::selection{
+    color: red;
+    background-color: yellow;
+}
