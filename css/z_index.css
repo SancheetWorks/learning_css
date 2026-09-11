@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+    margin: 50px;
+}
+
+.value{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.red{
+    background-color: red;
+    left: 40px;
+}
+
+/* Zindex shows which item will be on the top (range: 0 to 999999) */
+
+.blue{
+    background-color: blue;
+    left: 100px;
+    z-index: 10;
+}
+
+.yellow{
+    background-color: yellow;
+    left: 160px;
+}
