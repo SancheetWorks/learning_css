@@ -1,0 +1,46 @@
+.movement {
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    animation: movingbox;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@keyframes movingbox {
+    0% {
+        background-image: url(../images/bugatti.jpg);
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-image: url(../images/zonda.jpg);
+        left: 300px;
+        top: 0px;
+    }
+
+    50% {
+        background-image: url(../images/jesko.jpg);
+        left: 300px;
+        top: 300px;
+    }
+
+    75% {
+        background-image: url(../images/La\ Ferrari.jpg);
+        left: 0px;
+        top: 300px;
+    }
+
+    100% {
+        background-image: url(../images/bugatti.jpg);
+        left: 0px;
+        top: 0px;
+    }
+}
